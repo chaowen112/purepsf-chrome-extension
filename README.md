@@ -104,14 +104,3 @@ Avoid:
 - On the PropertyGuru page, open DevTools to inspect content-script behavior.
 - If the panel says no match was found, test the extracted project name in
   purePSF search first.
-
-## Submodule Back Into purePSF
-
-After this directory becomes its own git repository, attach it to the main
-purePSF repo as a submodule:
-
-```bash
-cd /Users/chaowen/go/src/purepsf
-git submodule add <repo-url> integrations/propertyguru-extension
-git commit -m "Add PropertyGuru Chrome extension submodule"
-```
